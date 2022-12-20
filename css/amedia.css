@@ -116,13 +116,13 @@
         border-radius: 10px;
         border: none;
         padding: 0%;
-        height: 70px;
+        height: 90px;
     }
     .card-title
     {
-        padding-top: 50%;
+        padding-top: 40%;
         border-radius: 10px;
-        font-size: 5px;
+        font-size: 9px;
     }
     .addres
     {
