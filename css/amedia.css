@@ -16,7 +16,43 @@
     {
         height: 40px;
     }
-
+    .navbar-toggler-icon img
+    {
+        width: 80%;
+        margin-right: 0%;
+    }
+    .navbar-toggler-icon
+    {
+        height: min-content;
+    }
+    .navbar-toggler
+    {
+        border: 1px solid;
+        margin-right: 5%;
+    }
+    .navbar-toggler:hover,.navbar-toggler::before,.navbar-toggler:active
+    {
+        border: solid 1px;
+        margin-right: 5% ;
+    }
+    .modal-content
+    {
+        background-color: #c1cdd8;
+    }
+    .modal-body a 
+    {
+        color: #000000;
+        text-align: center;
+    }
+    .modal-body a:hover 
+    {
+        color: #000000;
+        text-shadow: 3px 2px 5px rgba(17, 16, 16, 0.726);
+    }
+    .inform_block 
+    {
+        margin: 15% 0 0 0%;
+    }
     /* whu us */
     .why-us
     {
@@ -196,6 +232,10 @@
 
 @media (min-width:400px) and (max-width:500px)
 {
+    .inform_block 
+    {
+        margin: 15% 0 0 0%;
+    }
     .first-carousel .carousel-inner .carousel-item
     {
         width: 100%;
@@ -229,7 +269,7 @@
         border-radius: 10px;
         border: none;
         padding: 0%;
-        height: 100px;
+        height: 120px;
     }
     .card-title
     {
@@ -377,6 +417,10 @@
 }
 @media screen and (min-width:500px) and (max-width:600px)
 {
+    .inform_block 
+    {
+        margin: 15% 0 0 0%;
+    }
     body
     {
         font-size: 18px;
@@ -470,7 +514,7 @@
     /* catalog */
     .catalog .col-2 .card .card-body
     {
-        height: 90px;
+        height: 110px;
         border-radius: 5px;
         border: none;
         padding: 0%;
@@ -658,13 +702,13 @@
         border-radius: 10px;
         border: none;
         padding: 0%;
-        height: 140px;
+        height: 180px;
     }
     .card-title
     {
         padding-top: 45%;
         border-radius: 10px;
-        font-size: 10px;
+        font-size: 14px;
     }
 
     /* contact */
@@ -704,7 +748,7 @@
     /* catalog */
     .catalog .col-2 .card .card-body
    {
-        height: 110px;
+        height: 130px;
         border-radius: 5px;
         border: none;
         padding: 0%;
@@ -713,7 +757,7 @@
     {
         padding-top: 44%;
         border-radius: 5px;
-        font-size: 10px;
+        font-size: 11px;
     }
     .carousel-indicators [data-bs-target]
     {
